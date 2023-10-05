@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #input-box {
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 300px;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: whitesmoke;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#description {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .input-row label,
+    .input-row input,
+    .input-row select,
+    .input-row textarea {
+        width: 100%;
+    }
+}
+label{
+    margin: 20px;
+    display: block;
+     margin-bottom: 8px; 
+    
+   
+}
+/* #food{
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#item{
+    margin-bottom: 10px;
+} */
